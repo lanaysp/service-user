@@ -6,20 +6,20 @@ module.exports = {
    
     await queryInterface.bulkInsert('users', [
       {
-        name: "widada",
-        profession: "Admin Micro",
+        name: "Etnicode",
+        profession: "Admin Etnicode",
         role: "admin",
-        email: "juarakoding@gmail.com",
-        password: await bcrypt.hash('rahasia1234', 10),
+        email: "etnicode@gmail.com",
+        password: await bcrypt.hash('secret1234', 10),
         created_at: new Date(),
         updated_at: new Date()
       },
       {
-        name: "Yein",
-        profession: "Front End Developer",
+        name: "Maulana",
+        profession: "Back End Developer",
         role: "student",
-        email: "yein@mail.com",
-        password: await bcrypt.hash('rahasiaku123', 10),
+        email: "lanaysps@mail.com",
+        password: await bcrypt.hash('secret123', 10),
         created_at: new Date(),
         updated_at: new Date()
       }
